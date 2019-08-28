@@ -1,0 +1,17 @@
+[ignore]
+.*coverage/.*
+.*dist/.*
+.*node_modules/.*
+.*test/.*
+.*\.config\.js
+.*\.conf\.js
+
+.*\.json
+
+[lints]
+untyped-import=off
+unclear-type=off
+
+[options]
+all=true
+module.name_mapper='^react\-bootstrap\/.*' -> 'react-bootstrap'
